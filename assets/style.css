@@ -48,7 +48,16 @@ footer {
 	background-color: #8a1212;
 	color: white;
 }
-
+.tiers {
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin: 0 auto;
+}
+.tiers > div {
+	width: 10rem;
+	text-align: center;
+}
 .playerTable {
 	background-color: white;
 	margin-left: auto;
@@ -60,21 +69,26 @@ footer {
 }
 .captainTitle {
 	border: solid black 1px;
+	background-color: #b7b7b7;
 }
 .captain {
-	font-size: medium;
+	font-size: small;
 	width: 11rem;
 	border: solid black 1px;
+	border-bottom: solid black 3px;
+	background-color: #b7b7b7;
 }
 .role {
 	width: 8rem;
 	padding-left: .3rem;
 	border: solid black 1px;
+	border-right: solid black 3px;
+	background-color: #b7b7b7;
 }
 .player {
 	width: 11rem;
 	padding-left: .3rem;
-	border: solid black 1px;
+	border-right: solid black 1px;
 }
 .sTier {
 	background-color: #659FFE;
