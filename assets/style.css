@@ -2,7 +2,7 @@ body {
 	font-family: sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #4F4A4A;
+	background-color: white;
 	line-height: 1.4;
 }
 header {
@@ -50,40 +50,38 @@ footer {
 }
 .tiers {
 	display: flex;
-	width: 80%;
+	max-width: 57.2rem;
 	justify-content: center;
 	margin: 0 auto;
 }
 .tiers > div {
-	width: 10rem;
+	flex-grow: 1;
 	text-align: center;
 }
 .playerTable {
-	background-color: white;
+	background-color: #a4c2f4;
 	margin-left: auto;
 	margin-right: auto;
 	border-collapse: collapse;
 }
 .playerTable + .playerTable {
-	margin-top: 1rem;
+	border-top: solid black 5px;
 }
 .captainTitle {
 	border: solid black 1px;
-	background-color: #b7b7b7;
+	width: 11rem;
 }
 .captain {
 	font-size: small;
 	width: 11rem;
 	border: solid black 1px;
 	border-bottom: solid black 3px;
-	background-color: #b7b7b7;
 }
 .role {
-	width: 8rem;
+	width: 11rem;
 	padding-left: .3rem;
 	border: solid black 1px;
 	border-right: solid black 3px;
-	background-color: #b7b7b7;
 }
 .player {
 	width: 11rem;
@@ -91,22 +89,22 @@ footer {
 	border-right: solid black 1px;
 }
 .sTier {
-	background-color: #659FFE;
+	background-color: #00FFFF;
 }
 .aTier {
-	background-color:  #5ca26f;
+	background-color:  #32527b;
 }
 .bTier {
-	background-color:  #fbe264;
+	background-color:  #028a0f;
 }
 .cTier {
-	background-color:  #ffb950;
+	background-color:  #CCCC33;
 }
 .dTier {
-	background-color:  #cccccc;
+	background-color:  #b5b5bd;
 }
 .fTier {
-	background-color:  #e06666;
+	background-color:  #a97142;
 }
 
 @media only screen and (min-width: 600px) {
@@ -118,6 +116,7 @@ footer {
 		align-items: center;
 	}
 	.name {
+		/* empty */
 	}
 	.menu {
 		display: inline-flex;
