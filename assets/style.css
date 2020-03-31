@@ -2,17 +2,19 @@ body {
 	font-family: sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: white;
+	background-color: #1E1E1E;;
 	line-height: 1.4;
+	font-family: "Verdana", sans-serif;
 }
 header {
 	padding: 0rem 1rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #1E1E1E;
+	background-color: #8a1212;
 	color: #EEE;
 	line-height: 1;
+	margin-bottom: 3rem;
 }
 .name {
 	font-family: 'Bebas Neue', cursive;
@@ -50,7 +52,7 @@ footer {
 }
 .tiers {
 	display: flex;
-	max-width: 57.2rem;
+	max-width: 56.8rem;
 	justify-content: center;
 	margin: 0 auto;
 }
@@ -59,10 +61,11 @@ footer {
 	text-align: center;
 }
 .playerTable {
-	background-color: #a4c2f4;
+	background-color: #EEE;
 	margin-left: auto;
 	margin-right: auto;
 	border-collapse: collapse;
+	color: black;
 }
 .playerTable + .playerTable {
 	border-top: solid black 5px;
@@ -78,7 +81,7 @@ footer {
 	border-bottom: solid black 3px;
 }
 .role {
-	width: 11rem;
+	max-width: 11rem;
 	padding-left: .3rem;
 	border: solid black 1px;
 	border-right: solid black 3px;
@@ -92,13 +95,13 @@ footer {
 	background-color: #00FFFF;
 }
 .aTier {
-	background-color:  #32527b;
+	background-color:  #4682bf ;
 }
 .bTier {
-	background-color:  #028a0f;
+	background-color:  #55b079 ;
 }
 .cTier {
-	background-color:  #CCCC33;
+	background-color:  #fbe264 ;
 }
 .dTier {
 	background-color:  #b5b5bd;
